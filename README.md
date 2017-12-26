@@ -8,7 +8,7 @@ A sessions is the unique identification of a user which is sent to the users bro
 
 A session is a place to store data. Each user that visits your website has a unique session. You can use sessions to store and access user data as they browse your application.
 
-
+## Why?
 
   - Since Http is stateless, we need a way to store user data if we are
   willing to associate a request to another.
