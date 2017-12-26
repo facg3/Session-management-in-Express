@@ -1,4 +1,14 @@
-# Session-management-in-Express
+# Session management in Express
+
+## What is a session?
+
+A sessions is the unique identification of a user which is sent to the users browser as a cookie or as a GET request. Sessions end when the user closes the browser, or when the web server deletes the session information.
+
+ ## used?
+
+A session is a place to store data. Each user that visits your website has a unique session. You can use sessions to store and access user data as they browse your application.
+
+
 
   - Since Http is stateless, we need a way to store user data if we are
   willing to associate a request to another.
